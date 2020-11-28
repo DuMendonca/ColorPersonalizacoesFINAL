@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+#cabecalho{
+	height: 10%;
+	width: 100%;
+	background-color: #102E51;
+}
+
+	#menuPrincipal li, #menuPrincipal a{
+		list-style: none;
+		text-decoration: none;
+	}
+	.submenu{
+		display: none;
+		position: absolute;
+	}
+	#menuPrincipal{
+		float: left;
+		font-size: 17px;
+	}
+	#menuPrincipal a{
+		padding: 0px 20px;
+		height: 45px;
+		float: left;
+		line-height: 45px;
+		color: white;
+		border-radius: 5px;
+	}
+	#menuPrincipal li{
+		display: inline-block;
+		padding-top: 5px;
+	}
+	.submenu a{
+		color: white;
+		background-color: #102E51;
+		width: 150px;
+		margin-bottom: -10px;
+	}
+	#menuPrincipal li:hover > .submenu{
+		display: block;
+		top: 45px;
+		width: 150px;
+	}
+	.submenu li:hover > a{
+		background-color:  #FC7307;
+	}
+	#menuPrincipal li:hover > a{
+		background-color:  #FC7307;
+	}
+	#menuBv{
+		margin-left: 580px;
+		padding: 0px 20px;
+		height: 45px;
+		float: right;
+		line-height: 45px;
+		color: white;
+	}
+#registroCliente{
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	background-color: #D4E4F7;
+}
+	h1{
+		font-family: 'Bree Serif', serif;
+		font-size:35px;
+		color: #B85B14;
+		padding-top: 10px;
+	}
+#conteudoPrincipal{
+	height: 73%;
+	width: 100%;
+	background-color: #D4E4F7;
+}
+		#divConsulta{
+			width: 100%;
+			font-family: 'Bree Serif', serif;
+			height: 60%;
+		}
+	#fieldConsulta{
+		height: 70%;
+		width: 99%;
+		margin-left: 0.4%;
+	}
+	.camposForm{
+		height: 25px;
+		margin-top: 10px;
+		margin-bottom: 3px;
+	}
+	.campos, #labelConsultaNome, table{
+		margin-left: 10px;
+	}
+	#labelConsultaNome{
+		margin-right: 10px;
+	}
+	table{
+		width: 96%;
+		border-collapse: collapse;
+		margin-top: 1.5%;
+	}
+		.botoes{
+			background-color: transparent;
+			border: none;
+			margin-top: 5px;
+			margin-left: 5px;
+		}
+		.botoesImg{
+			width: 80%;
+		}
+		.formBotao{
+			text-align: center;
+			display: inline-block;
+		}
+		th { 
+			background-color:#7c92ad;
+			font-size: 12px; 
+			color:#484848;
+			padding-left:4px; 
+			padding-right:4px; 
+			border-bottom:solid 1px #7c92ad; 
+			height:26px;
+			padding-right:5px; 
+		} 
+		tr:nth-child(odd){ 
+			background-color:#b1bece; 
+		} 
+		tr:nth-child(even){ 
+			background-color:#c5d4e5; 
+		} 
+		tr, td{
+			height:26px;
+			padding-left:4px;
+			padding-right:2px;
+			font-family: 'Bree Serif', serif;
+			text-align: center;
+			font-size:12px;
+			white-space:nowrap;
+			border-bottom:solid 1px #7c92ad;
+		}
+#rodape{
+	width:100%;
+	height:7%;
+	background-color:#102E51;
+}
+#copyright{
+	padding-top: 15px;
+	color: #B85B14;
+	text-align:center;
+}

@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	height: 100%;
+	background-color: #D4E4F7;
+	width: 100%;
+}
+#editaProduto{
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	background-color: #D4E4F7;
+}
+	h1{
+		font-family: 'Bree Serif', serif;
+		font-size:35px;
+		color: #B85B14;
+		padding-top: 10px;
+	}
+#conteudoPrincipal{
+	height: 73%;
+	width: 100%;
+	background-color: #D4E4F7;
+	font-family: 'Bree Serif', serif;
+}
+	.divEdita{
+		width: 100%;
+		height: 50%;
+		font-family: 'Bree Serif', serif;
+	}
+	#formEdita{
+		height: 90%;
+	}
+	#fieldEdita{
+		height: 80%;
+		width: 99%;
+		margin-left: 0.4%;
+	}
+	.camposForm{
+		height: 18px;
+		margin-top: 7px;
+		margin-bottom: 3px;
+	}
+	.campos{
+		margin-left: 10px;
+	}
+	.botoes{
+			background-color: transparent;
+			border: none;
+			margin-top: 5px;
+			margin-left: 5px;
+	}
+	.botoesImg{
+			width: 80%;
+	}

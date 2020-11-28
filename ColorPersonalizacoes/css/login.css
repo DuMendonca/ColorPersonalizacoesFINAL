@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	height: 110%;
+	width: 100%;
+}
+#login{
+	height: 20%;
+	width: 100%;
+	text-align: center;
+	background-color: #D4E4F7;
+}
+	#loginTexto{
+		font-family: 'Bree Serif', serif;
+		font-size:60px;
+		color: #B85B14;
+		padding-top: 15px;
+	}
+#conteudoPrincipal{
+	height: 73%;
+	width: 100%;
+	background-color: #D4E4F7;
+}
+	#divImgLogo{
+		width: 100%;
+		height: 45%;
+	}
+	#imgLogo{
+		width: 22%;
+		height: 100%;
+		margin:0% auto;
+		display: flex;
+	}
+	#divForm{
+		width: 100%;
+		height: 55%;
+	}
+	#formLogin{
+		text-align: center;
+		margin: 0% auto;
+		font-family: 'Bree Serif', serif;
+		height: 70%;
+		padding-top: 3%;
+	}
+		.campos{
+			font-family: 'Bree Serif', serif;
+			font-size: 21.5px;
+		}
+		.camposForm{
+			height: 20px;
+			width: 240px;
+			border-radius: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		#senha{
+			margin-bottom: 3px;
+		}
+		.botoesImg{
+			width: 80%;
+			height: 90%;
+		}
+		.botoes{
+			margin-top: 2.5%;
+			margin-right: 10px;
+			border:none;
+			background-color: #D4E4F7;
+		}
+		#esqueciSenha{
+			font-family: 'Bree Serif', serif;
+			font-size: 15px;
+		}
+#rodape{
+	width:100%;
+	height:7%;
+	background-color:#102E51;
+}
+#copyright{
+	padding-top: 15px;
+	color: #B85B14;
+	text-align:center;
+}
